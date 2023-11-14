@@ -75,7 +75,7 @@ clf.fit(x_train, y_train)
 #############################################################################
 
 y_pred = clf.predict(x_test,)
-print("SVM PREDICTIONS")
+print("naive bayes PREDICTIONS")
 print_stats_metrics(y_test,y_pred)
 print_conf_plt(y_test,y_pred)
 
