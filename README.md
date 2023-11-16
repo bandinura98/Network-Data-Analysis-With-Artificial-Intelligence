@@ -6,6 +6,17 @@ This project is developed using the Naive Bayes algorithm to analyze various att
 
 The F1 score is 0.998. The confusion matrix is as follows. 
 
+
+This dataset is preprocessed according to the network based intrusion detection system in Iot devices.
+0- normal
+1- wrong setup
+2- ddos
+3- Data type probing (ultrasonic sensor was used so in data type probing mostly string values are sent to the server)
+4 - scan attack
+5 - man in the middle
+
+
+
 ![Screenshot_70](https://github.com/bandinura98/Network-Data-Analysis-With-Artificial-Intelligence/assets/55794448/bb68180f-be0a-475a-9eea-e9fb2463d31f)
 
 #In order to run it in Python
